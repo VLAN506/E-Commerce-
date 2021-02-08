@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color:#333333;
+       
+}
+a:link {
+    color: rgb(249, 252, 249);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Baloo Bhaina 2';font-size: 17px;
+  }
+  a:visited {
+    color: rgb(250, 248, 248);
+    background-color: transparent;
+    text-decoration: none;
+  }
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    background-color: #e9ecef;
+    font-family: 'Baloo Bhaina 2';font-size: 35px;
+}
