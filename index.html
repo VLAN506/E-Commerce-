@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Baloo Bhaina 2' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="navbar">
@@ -16,11 +18,86 @@
         <a href="#caterogories">Categories</a>
         <a href="#products">Products</a>
         <a href="#contact">Contact</a>
-        <i class="fa fa-shopping-cart" style="font-size:37px;color:rgb(247, 242, 242)"></i>
+        <i class="fa fa-shopping-cart"></i>
+
         <input type="text" placeholder="Search.."> 
      </div>
      <div class="jumbotron">
-         <p>E-Commerce Cart</p>
+         <p>E-COMMERCE CART</p>
      </div>
+    <hr>
+    <table>
+        <tr>
+          <th>Product</th>
+          <th>Available</th>
+          <th>Quantity</th>
+          <th>Price</th>
+         </tr>
+         <tr class="zebra">
+            <td>Product Name Dada<span style="float:left;"><i class="fa fa-box-open"></i></span></td>
+            <td>In Stock</td>
+             <td><input type="text" name="fname" /></td> 
+             <td>124,90 €</td>
+             
+         </tr>
+         <tr>
+             <td >Product Name Toto</td>
+             <td>In Stock</td>
+             <td><input type="text" name="fname" /></td> 
+             <td>33,90 €</td>
+         </tr>
+         <tr class="zebra">
+             <td >Product Name Titi</td>
+             <td>In stock</td>
+             <td><input type="text" name="fname" /></td> 
+             <td>70,00 €</td>
+         </tr>
+         <tr class="subtotal">
+            <td></td>
+            <td></td>
+            <td>Sub-Total</td>
+            <td>255,90 €</td>  
+        </tr>
+        <tr class="zebra">
+            <td></td>
+            <td></td>
+            <td>Shipping</td>
+            <td>6,90 €</td>
+        </tr>
+        <tr class="total">
+            <td></td>
+            <td></td>
+            <td>Total</td>
+            <td>346,90 €</td>
+        </tr>
+    </table>
+    <div class="botones">
+    <button class="checkout">Continue to checkout  </button>
+    <button class="button">CHECKOUT</button>
+    </div>
+    <footer>
+        <div>
+            <div class="column">
+                <h5>About</h5>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+            </div>
+            <div class="column">
+                <h5>Informations</h5>
+                <p>Link 1</p>
+            </div>
+            <div class="column">
+                <h5>Other links</h5>
+                <p>Link 2</p>
+            </div>
+            <div class="column">
+                <h5>Contact</h5>
+                <p> My company
+                    email@example.com
+                    + 33 12 14 15 16
+                    + 33 12 14 15 16</p>
+            </div>
+          </div>
+    </footer>  
+    
 </body>
 </html>

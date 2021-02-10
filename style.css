@@ -1,4 +1,4 @@
-.navbar a a:visited{
+.navbar a, a:visited ,a {
     color: rgb(249, 252, 249);
     background-color: transparent;
     text-decoration: none;
@@ -7,16 +7,72 @@
     background-color: transparent;
     text-decoration: none;
 }
-.navbar{
+.fa .fa-shopping-cart {
+    font-size:40px;
+    color: white;
+}
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color:#333333;
-       }
+}
 
-.jumbotron{
+.jumbotron {
     display: flex;
     justify-content: center;
     padding:40px;
     background-color: #e9ecef;
-    font-family: 'Baloo Bhaina 2';font-size:35px;}
+    font-family: 'Baloo Bhaina 2';font-size:35px;
+}
+hr {
+    margin:2%;
+}
+table {
+    width: 100%;
+    font-family: 'Baloo Bhaina 2';font-size:17px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+th, td {
+    padding: 15px;
+    border-top: hidden;
+}
+.zebra {
+    background-color: #e9ecef;
+}
+.total {
+    font-weight: bold;
+}
+.subtotal{
+    justify-content: right;
+}
+button {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px 90px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2%;
+    font-family: 'Baloo Bhaina 2';font-size:26px;
+    border-radius: 4px;
+}
+.checkout {
+    background-color: #e9ecef;
+    color: black;
+}
+.botones {
+    justify-content: right;
+}
+footer {
+    
+    background-color:#333333;
+    color: white;
+    display: block;
+}
+h5 {
+    font-family: 'Baloo Bhaina 2';font-size:17px;
+}
